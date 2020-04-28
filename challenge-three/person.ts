@@ -1,8 +1,8 @@
 export let person = {
-  firstName: 'Elias',
-  lastName: 'Telahun',
+  firstName: 'John',
+  lastName: 'Doe',
 };
 
 export function greet(name) {
-  return `Nice to meet you, ${this.firstName}.`;
+  return `Nice to meet you, ${name}`;
 }

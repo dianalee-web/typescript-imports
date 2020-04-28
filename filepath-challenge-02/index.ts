@@ -1,4 +1,3 @@
-/* import the double function from double.ts
-   now invoke the function with 512 as an input. Store the output in an exported variable named result.
-   confirm completion by running tests for this directory.
-*/
+import { double } from '../filepath-challenge-01/double';
+
+export let result = double(512);
